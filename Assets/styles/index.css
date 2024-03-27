@@ -44,6 +44,11 @@ header .header-content img {
   margin: 0 auto;
 }
 @media screen and (max-width: 1000px) {
+  header .header-content img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1000px) {
   header .header-content .header-text {
     margin-top: 40px;
   }
@@ -101,7 +106,14 @@ header .header-content h2 {
 @media screen and (max-width: 370px) {
   header .header-content h1,
   header .header-content h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: -10px;
+  }
+}
+@media screen and (max-width: 370px) {
+  header .header-content h1,
+  header .header-content h2 {
+    font-size: 1.5rem;
+    margin-top: -5px;
   }
 }/*# sourceMappingURL=index.css.map */

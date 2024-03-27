@@ -21,6 +21,9 @@ header {
       width: 80%;
       max-width: 400px;
       margin: 0 auto;
+      @media screen and (max-width: 1000px) {
+        width: 50%;
+      }
     }
     .header-text {
       @media screen and (max-width: 1000px) {
@@ -62,8 +65,12 @@ header {
         margin-top: -20px;
       }
       @media screen and (max-width: 370px) {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-top: -10px;
+      }
+      @media screen and (max-width: 370px) {
+        font-size: 1.5rem;
+        margin-top: -5px;
       }
     }
   }
