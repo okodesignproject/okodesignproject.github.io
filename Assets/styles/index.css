@@ -9,6 +9,10 @@ body {
   min-height: 100vh;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   min-height: 100vh;
   background: #737373;
@@ -79,15 +83,15 @@ header .header-content h2 {
 @media screen and (max-width: 1200px) {
   header .header-content h1,
   header .header-content h2 {
-    font-size: 6rem;
+    font-size: 5.8rem;
+    margin-top: -50px;
   }
 }
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1000px) {
   header .header-content h1,
   header .header-content h2 {
-    font-size: 5.5rem;
-    text-align: center;
     margin-top: -50px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 750px) {
@@ -151,11 +155,13 @@ header a:visited:hover {
   header a,
   header a:visited {
     font-size: 2rem;
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 370px) {
   header a,
   header a:visited {
     font-size: 1rem;
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=index.css.map */
