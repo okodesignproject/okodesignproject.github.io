@@ -1,0 +1,46 @@
+.section1 {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: $color7;
+  border-radius: 40px;
+  padding: 80px 0;
+  text-align: center;
+
+  h1 {
+    color: $color1;
+    font-size: 7rem;
+    font-family: $font3;
+    margin-top: -40px;
+
+    @media screen and (max-width: 750px) {
+      font-size: 5rem;
+    }
+    @media screen and (max-width: 580px) {
+      font-size: 3rem;
+      margin-top: -20px;
+    }
+    @media screen and (max-width: 330px) {
+      font-size: 2rem;
+      margin-top: -10px;
+    }
+  }
+
+  h2 {
+    margin-top: 20px;
+    color: $color5;
+    text-transform: uppercase;
+    font-family: $font1;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    @media screen and (max-width: 950px) {
+      font-size: 1rem;
+    }
+    @media screen and (max-width: 580px) {
+      font-size: 0.7rem;
+    }
+    @media screen and (max-width: 580px) {
+      font-size: 0.3rem;
+    }
+  }
+}
