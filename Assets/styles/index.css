@@ -121,9 +121,4 @@ header a:visited:hover {
   .section1 h2 {
     font-size: 1rem;
   }
-}
-@media screen and (max-width: 580px) {
-  .section1 h2 {
-    font-size: 0.7rem;
-  }
 }/*# sourceMappingURL=index.css.map */
