@@ -7,34 +7,142 @@
   padding: 80px 0;
   text-align: center;
 
-  h1 {
-    color: $color1;
-    font-size: 7rem;
-    font-family: $font3;
-    margin-top: -40px;
+  .header {
+    margin: 0 auto 60px;
+    width: 80%;
+    border-bottom: 2px dashed $color2;
 
-    @media screen and (max-width: 750px) {
-      font-size: 5rem;
+    h1 {
+      color: $color1;
+      font-size: 7rem;
+      font-family: $font3;
+      margin-top: -40px;
+
+      @media screen and (max-width: 750px) {
+        font-size: 5rem;
+      }
+      @media screen and (max-width: 580px) {
+        font-size: 3rem;
+        margin-top: -20px;
+      }
+      @media screen and (max-width: 330px) {
+        font-size: 2rem;
+        margin-top: -10px;
+      }
     }
-    @media screen and (max-width: 580px) {
-      font-size: 3rem;
-      margin-top: -20px;
-    }
-    @media screen and (max-width: 330px) {
-      font-size: 2rem;
-      margin-top: -10px;
+
+    h2 {
+      margin: 20px auto 50px;
+      color: $color5;
+      text-transform: uppercase;
+      font-family: $font1;
+      font-size: 1.5rem;
+      letter-spacing: 4px;
+      @media screen and (max-width: 950px) {
+        font-size: 1rem;
+      }
     }
   }
 
-  h2 {
-    margin-top: 20px;
-    color: $color5;
-    text-transform: uppercase;
-    font-family: $font1;
-    font-size: 1.5rem;
-    letter-spacing: 4px;
-    @media screen and (max-width: 950px) {
-      font-size: 1rem;
+  .product-part {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: $color1;
+
+    @media screen and (max-width: 700px) {
+      grid-template-columns: 1fr;
+      grid-column-end: auto;
+      border-bottom: 1px solid $color1;
+    }
+
+    &:last-child {
+      padding-bottom: 50px;
+      border-bottom: 2px dashed $color5;
+      @media screen and (max-width: 700px) {
+        padding-top: 40px;
+      }
+    }
+    .img-container {
+      border-radius: 50px;
+      padding: 30px;
+      width: 80%;
+      margin: 0 auto;
+    }
+    #product1 {
+      background: $color3;
+    }
+    #product2 {
+      background: $color5;
+      @media screen and (max-width: 700px) {
+        margin-bottom: 40px;
+      }
+    }
+    #product3 {
+      background: $color2;
+    }
+    img {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .text-container {
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+    h2 {
+      margin: 20px auto;
+      font-family: $font1;
+      font-size: 2.5rem;
+      @media screen and (max-width: 1300px) {
+        font-size: 2.3rem;
+      }
+      @media screen and (max-width: 1100px) {
+        font-size: 2rem;
+      }
+      @media screen and (max-width: 900px) {
+        font-size: 1.8rem;
+      }
+    }
+    p {
+      font-family: $font2;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+
+      @media screen and (max-width: 1300px) {
+        font-size: 1.3rem;
+      }
+      @media screen and (max-width: 1100px) {
+        font-size: 1rem;
+      }
+      @media screen and (max-width: 900px) {
+        font-size: 0.8rem;
+      }
+    }
+    a,
+    a:visited {
+      font-family: $font2;
+      font-size: 1.6rem;
+
+      @media screen and (max-width: 1300px) {
+        font-size: 1.3rem;
+      }
+      @media screen and (max-width: 1100px) {
+        font-size: 1rem;
+      }
+      @media screen and (max-width: 900px) {
+        font-size: 0.8rem;
+      }
+    }
+    #link1 {
+      color: $color3;
+    }
+    #link2 {
+      color: $color5;
+    }
+    #link3 {
+      color: $color4;
     }
   }
 }
