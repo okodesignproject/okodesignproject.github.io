@@ -63,7 +63,7 @@ header img {
 .section1 .header {
   margin: 0 auto 60px;
   width: 80%;
-  border-bottom: 2px dashed #ddae94;
+  border-bottom: 1px dashed #ddae94;
 }
 .section1 .header h1 {
   color: #ededed;
@@ -117,7 +117,7 @@ header img {
 }
 .section1 .product-part:last-child {
   padding-bottom: 50px;
-  border-bottom: 2px dashed #9e7dcf;
+  border-bottom: 1px dashed #9e7dcf;
 }
 @media screen and (max-width: 700px) {
   .section1 .product-part:last-child {

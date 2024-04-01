@@ -10,7 +10,7 @@
   .header {
     margin: 0 auto 60px;
     width: 80%;
-    border-bottom: 2px dashed $color2;
+    border-bottom: 1px dashed $color2;
 
     h1 {
       color: $color1;
@@ -59,7 +59,7 @@
 
     &:last-child {
       padding-bottom: 50px;
-      border-bottom: 2px dashed $color5;
+      border-bottom: 1px dashed $color5;
       @media screen and (max-width: 700px) {
         padding-top: 40px;
       }
