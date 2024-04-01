@@ -232,4 +232,78 @@ header img {
 }
 .section1 .product-part #link3 {
   color: #cdc5c5;
+}
+.section1 .command {
+  margin: 40px auto;
+  padding: 40px 80px;
+  background: #8b8b8b;
+  border-radius: 50px;
+  width: 80%;
+}
+@media screen and (max-width: 800px) {
+  .section1 .command {
+    padding: 40px;
+  }
+}
+.section1 .command h2 {
+  font-family: Merri;
+  color: #161616;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+@media screen and (max-width: 650px) {
+  .section1 .command h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section1 .command h2 {
+    font-size: 1.2rem;
+  }
+}
+.section1 .command p {
+  margin: 20px auto 40px;
+  font-family: Oswald;
+  font-size: 1.3rem;
+  color: #161616;
+}
+@media screen and (max-width: 650px) {
+  .section1 .command p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section1 .command p {
+    font-size: 0.8rem;
+  }
+}
+.section1 .command ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.section1 .command ul li {
+  list-style: none;
+  color: #161616;
+  font-size: 1.5rem;
+  font-family: Oswald;
+  text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  .section1 .command ul li {
+    font-size: 0.8rem;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section1 .command ul li {
+    font-size: 0.6rem;
+  }
+}
+.section1 .command ul li i {
+  margin-right: 20px;
 }/*# sourceMappingURL=index.css.map */
