@@ -89,7 +89,9 @@
     .text-container {
       text-align: center;
       padding: 20px;
-      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
     }
     h2 {
       margin: 20px auto;

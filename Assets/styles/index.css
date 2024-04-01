@@ -151,7 +151,15 @@ header img {
 .section1 .product-part .text-container {
   text-align: center;
   padding: 20px;
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .section1 .product-part h2 {
   margin: 20px auto;
