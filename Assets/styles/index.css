@@ -54,7 +54,7 @@ header img {
 .section1 {
   width: 80%;
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 0 auto 120px;
   background: #161616;
   border-radius: 40px;
   padding: 80px 0;
@@ -306,4 +306,14 @@ header img {
 }
 .section1 .command ul li i {
   margin-right: 20px;
+}
+.section1 .information {
+  color: #ededed;
+  height: 400px;
+  padding: 40px;
+}
+.section1 .information h2 {
+  font-size: 2rem;
+  font-family: Merri;
+  text-transform: uppercase;
 }/*# sourceMappingURL=index.css.map */
