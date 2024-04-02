@@ -1,0 +1,23 @@
+.product-info {
+  width: 80%;
+  margin: 0 auto;
+  .part1,
+  .part2,
+  .part3 {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 400px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+    &:nth-child(1) {
+      background: $color2;
+    }
+    &:nth-child(2) {
+      background: $color3;
+    }
+    &:nth-child(3) {
+      background: $color5;
+    }
+  }
+}
